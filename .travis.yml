@@ -10,9 +10,9 @@ perl:
   - "5.8"
 
 install:
-  - "cpanm -n Test::More Test::Simple Test::Harness Test::Pod::Coverage"
+  - "cpanm -n Test::More Test::Simple"
   - "cpanm -n Email::MIME::Encodings Email::MIME::ContentType"
-  - "cpanm -n Email::Address Email::MessageID Email::Simple"
+  - "cpanm -n Email::Address Email::MessageID"
   - "cpanm -n --installdeps ."
 
 notifications:
